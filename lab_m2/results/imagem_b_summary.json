@@ -1,0 +1,32 @@
+{
+    "input": "results/invertidas/imagem_b_fixed.png",
+    "connectivity": 8,
+    "min_area": 20,
+    "kernel_size": 3,
+    "morphology_sequence": [
+        "closing",
+        "opening"
+    ],
+    "initial": {
+        "components_connectivity_4": 2109,
+        "components_connectivity_8": 1156,
+        "components_selected_connectivity": 1156,
+        "components_kept": 76,
+        "foreground_pixels": 219995,
+        "total_pixels": 1075200
+    },
+    "final": {
+        "components_selected_connectivity": 79,
+        "components_kept": 52,
+        "foreground_pixels": 237230,
+        "total_pixels": 1075200
+    },
+    "files": {
+        "initial_mask": "results\\imagem_b_initial.png",
+        "closing_mask": "results\\imagem_b_closing.png",
+        "final_mask": "results\\imagem_b_final.png",
+        "initial_csv": "results\\imagem_b_initial.csv",
+        "final_csv": "results\\imagem_b_final.csv",
+        "labeled_image": "results\\imagem_b_labels.png"
+    }
+}
